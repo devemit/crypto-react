@@ -14,7 +14,10 @@ const Explore = () => {
     });
   }, []);
   return (
-    <div className='px-10 max-w-[1200px] mx-auto py-24 md:grid grid-cols-2 bg-slate-100 '>
+    <div
+      id='featured'
+      className='px-10 max-w-[1200px] mx-auto py-24 md:grid grid-cols-2 bg-slate-100 '
+    >
       <div id='left'>
         <h1 className='text-4xl md:text-4xl lg:text-5xl  font-bold text-black max-w-md md:py-10'>
           Explore top Crypto's like Bitcoin,Ethereum and Cardano.

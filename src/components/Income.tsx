@@ -2,7 +2,7 @@ import earn from '../assets/trade.png';
 
 const Income = () => {
   return (
-    <div className='px-10 max-w-[1200px] mx-auto md:py-24 md:grid grid-cols-2'>
+    <div id='earn' className='px-10 max-w-[1200px] mx-auto md:py-24 md:grid grid-cols-2'>
       <div id='left'>
         <img src={earn} alt='earn-logo' className='object-cover' />
       </div>

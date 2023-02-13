@@ -1,6 +1,9 @@
 const Footer = () => {
   return (
-    <div className='grid grid-cols-2 md:flex items-center justify-between p-10 max-w-[1200px] mx-auto'>
+    <div
+      id='footer'
+      className='grid grid-cols-2 md:flex items-center justify-between p-10 max-w-[1200px] mx-auto'
+    >
       <h1 className='text-4xl font-extrabold'>
         De<span className='text-green-600'>Fi</span>
       </h1>
